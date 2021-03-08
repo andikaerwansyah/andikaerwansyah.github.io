@@ -32,26 +32,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
   <!-- Google Analytics -->
-  <script src="/js/google-analytics.js"></script>
-
+  <script src="js/google-analytics.js"></script>
 
 </head>
 <body id="page-top" class="index">
   <!-- Navigation -->
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-fixed-top navbar-custom">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        <button type="button" class="navbar-toggle pull-left" style="margin-left: 5px;" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
         </button>
-        <!-- <img src="img/logobaru.png" alt="Andika Erwansyah"> -->
+        <div id="btn-linkedin-mobile" class="pull-right" style="padding: 8px;">
+          <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/">
+            <i class="fa fa-linkedin" aria-hidden="true"></i> 
+            <i style="border-right: 2px solid white;margin-right: 5px;"></i>
+             Lets Connect
+          </a>
+        </div>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="hidden">
-            <a href="#page-top"></a>
+          <li class="page-scroll">
+            <a href="#page-top">Home</a>
           </li>
           <li class="page-scroll">
             <a href="#stack">Stack</a>
@@ -62,41 +67,33 @@
           <li class="page-scroll">
             <a href="#about">Contact</a>
           </li>
-
         </ul>
+        <div id="btn-linkedin-desktop" class="pull-right" style="padding: 5px;">
+          <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i style="border-right: 2px solid white;margin-right: 5px;"></i>
+            Lets Connect
+          </a>
+        </div>
       </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
   </nav>
 
-  <!-- Header -->
-  <!-- <div id="particles-js">
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="intro-text">
-            <span class="name">Hi , I'm Dika. I design and build</span>
-            <h2 class="typewrite" data-period="2000" data-type='["Websites.", "Web Application.", "Company Profile."]'>
-            <span class="wrap"></span>
-            </h2>
-          </div>
-          <div clas="btn-wrap">
-            <a class="btn btn-linkedin page-scroll" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  </div> -->
-
   <div id="particles-js">
     <div class="heading">
-      <span class="name">Hi , I'm Dika. I design and build</span>
-      <h2 class="typewrite" data-period="2000" data-type='["Websites.", "Web Application.", "Company Profile."]'>
-      </h2>
-        <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <span class="name">Hi , I'm <span id="highlight-name">Andika Erwansyah</span>.</span>
+      <p class="running-text">
+        I'd like to build 
+        <span class="typewrite"  data-period="2000" data-type='["Websites.", "Web Applications.", "Company Profile."]'></span>
+      </p>
+      <li class="page-scroll">
+        <a class="btn btn-lg btn-outline" href="#portfolio">View My Work 
+          <i class="fa fa-arrow-right" aria-hidden="true"></i> 
+        </a>
+      </li>
+        <!-- <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a> -->
     </div>
   </div>
 
@@ -174,17 +171,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="https://1.bp.blogspot.com/-uWq009GUfTU/WYJvMnNP-WI/AAAAAAAAAqk/wb5Bn0adiSkUTtd2RLpKhQ-5sTRbaE8agCLcBGAs/s1600/Screenshot%2B2017-08-03%2B07.32.31.png" class="img-responsive" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img src="https://i.postimg.cc/8cNqnX3J/landing-goiot.png" class="img-responsive" alt="">
+            <img class="project-images" src="img/kec-fixed.png" class="img-responsive" alt="">
           </a>
         </div>
         <div class="col-sm-4 portfolio-item">
@@ -194,7 +181,49 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="img/evisa.png" class="img-responsive" alt="">
+            <img class="project-images" src="img/evisa.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="project-images" src="https://i.postimg.cc/8cNqnX3J/landing-goiot.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="project-images" src="img/goiot-cloud-power-monitoring.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="project-images" src="img/duhans-compro.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="project-images" src="img/mrt-tunnel.png" class="img-responsive" alt="">
           </a>
         </div>
       </div>
@@ -208,7 +237,7 @@
         <div class="col-lg-6">
           <div class="aboutme">
             <h3 style="text-align:center;">About Me </h3>
-            <img src="img/profile.jpg"  alt="profile-picture">
+            <img src="https://i.postimg.cc/507tFBpH/profile.jpg"  alt="profile-picture">
             <p>
               I live near south Jakarta and currently I work at state-owned bank as a Back-end developer.
               I also freelance when i can, mostly building custom websites that you can't get from 
@@ -243,8 +272,8 @@
       <div class="container">
         <div class="row">
           <div class="footer-col col-md-4">
-            <h3 >Location</h3>
-            <p >
+            <h3>Location</h3>
+            <p>
               <i class="fa fa-map-marker" aria-hidden="true"></i> South Tangerang, Banten <br> Indonesia
             </p>
           </div>
@@ -264,12 +293,12 @@
             </ul>
           </div>
           <div class="footer-col col-md-4">
-            <h3 >Email</h3>
-            <p >
+            <h3>Mail & Phone</h3>
+            <p>
               <i class="fa fa-envelope-o" aria-hidden="true"></i> andika.erwansyah@gmail.com
             </p>
-            <p >
-              <i class="fa fa-whatsapp" aria-hidden="true"></i> (+62) 856-9730-8120
+            <p>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i> (+62)856-9730-8120
             </p>
           </div>
         </div>
@@ -279,7 +308,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <span><a style="color:white;font-weight:900;" href="http://andikaerwansyah.id/"><i style="color:lightblue;" class="fa fa-code" aria-hidden="true"></i> </a> With <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> from South Tangerang. 	&copy; 2018</span>
+            <span><a style="color:white;font-weight:900;" href="http://andikaerwansyah.id/"><i style="color:lightblue;" class="fa fa-code" aria-hidden="true"></i> </a> With <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> from South Tangerang. 	&copy; 2021</span>
           </div>
         </div>
       </div>
@@ -535,7 +564,7 @@
   <script src="js/freelancer.min.js"></script>
 
   <!-- Index App JS -->
-  <script src="/js/index.js"></script>
+  <script src="js/index.js"></script>
 
   <!-- ParticleJS -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>

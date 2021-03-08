@@ -1,5 +1,18 @@
-particlesJS('particles-js',
-  
+/* -----------------------------------------------
+/* How to use? : Check the GitHub README
+/* ----------------------------------------------- */
+
+/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
+/*
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js loaded - callback');
+});
+*/
+
+/* Otherwise just put the config content (json): */
+window.addEventListener('DOMContentLoaded', (event) => {
+  /* ---- particles.js config ---- */
+  particlesJS('particles-js',
   {
     "particles": {
       "number": {
@@ -10,7 +23,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#0000FF"
+        "value": "#dea623"
       },
       "shape": {
         "type": "edge",
@@ -115,6 +128,5 @@ particlesJS('particles-js',
       "background_repeat": "no-repeat",
       "background_size": "cover"
     }
-  }
-
-);
+  });
+});
