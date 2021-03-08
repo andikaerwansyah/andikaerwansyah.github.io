@@ -21,30 +21,18 @@
   <link rel="icon" href="img/logobaru.png" type="image" sizes="16x16">
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Theme CSS -->
+  <!-- Main CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
   <!-- fontawesome icon -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom Fonts -->
   <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
-  <!--Google Analytics-->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-91437624-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
+  <!-- New Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <!-- Google Analytics -->
+  <script src="/js/google-analytics.js"></script>
 
 
 </head>
@@ -57,12 +45,11 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="#page-top"><i class="fa fa-home" aria-hidden="true"></i></a>
         <!-- <img src="img/logobaru.png" alt="Andika Erwansyah"> -->
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
           <li class="hidden">
             <a href="#page-top"></a>
           </li>
@@ -84,33 +71,40 @@
   </nav>
 
   <!-- Header -->
+  <!-- <div id="particles-js">
   <header>
-
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-            <img src="img/logobaru.png" style="width:150px;height:150px;">
           <div class="intro-text">
             <span class="name">Hi , I'm Dika. I design and build</span>
-            <h2 class="typewrite" data-period="2000" data-type='["Websites.", "Web App.", "Company Profile."]'>
+            <h2 class="typewrite" data-period="2000" data-type='["Websites.", "Web Application.", "Company Profile."]'>
             <span class="wrap"></span>
             </h2>
           </div>
           <div clas="btn-wrap">
-            <a class="btn btn-outline" target="_blank" href="https://drive.google.com/file/d/0BxGMVa2rxPT5RnVIenhyRmJVUFk/view?usp=sharing">Download CV  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-            <a class="btn btn-outline page-scroll" href="#contact-form">I need a website <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <a class="btn btn-linkedin page-scroll" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
           </div>
         </div>
       </div>
     </div>
   </header>
+  </div> -->
 
+  <div id="particles-js">
+    <div class="heading">
+      <span class="name">Hi , I'm Dika. I design and build</span>
+      <h2 class="typewrite" data-period="2000" data-type='["Websites.", "Web Application.", "Company Profile."]'>
+      </h2>
+        <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/in/andikaerwansyah/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+    </div>
+  </div>
 
   <section id="stack" class="interest">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span><h1>Software Stack</h1></span>
+          <span><h1 class="section-title">Software Stacks</h1></span>
         </div>
       </div>
       <div class="row">
@@ -119,34 +113,33 @@
             <img src="img/2.png" alt="">
             <div class="card-ct">
               <span><h3>tools</h3></span>
-              <p>My favorite tool for coding is Atom text editor alongside with GitHub for applying changes in my project.</p>
+              <p>VS Code with GitHub has been a major tool in every development I've worked on. With community support VS Code is a full featured and powerful IDE.</p>
               <hr>
               <ul class="tags">
-                <li><a href="#" class="tag">Atom</a></li>
-                <li><a href="#" class="tag">Git</a></li>
-                <li><a href="#" class="tag">GitHub</a></li>
+                <li><a href="https://code.visualstudio.com/" target="_blank" class="tag">VSCode</a></li>
+                <li><a href="https://github.com/" target="_blank" class="tag">GitHub</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-lg-4" style="margin-top:10px">
           <div class="card">
-            <img src="img/3.png" alt="">
+            <img src="img/3.jpg" alt="">
             <div class="card-ct">
               <span><h3>frontend</h3></span>
-              <p>I design in the browser with HTML5 and CSS3, and touch of JavaScript. for now I often using front-end framework like Bootstrap.</p>
+              <p>Building a front-end using vue js is very fun for me personally. Reinforced with typescript making it easier to maintain.</p>
               <hr>
               <ul class="tags">
                 <li><a href="#" class="tag">HTML</a></li>
                 <li><a href="#" class="tag">CSS</a></li>
-                <li><a href="#" class="tag">JavaScript</a></li>
+                <li><a href="#" class="tag">Vuejs</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-lg-4" style="margin-top:10px">
           <div class="card">
-            <img src="img/1.jpg" alt="">
+            <img src="img/1.png" alt="">
             <div class="card-ct">
               <span><h3>backend</h3></span>
               <p>I work primarily with PHP for back-end side, to make development process even faster I use framework such as Codeigniter and Laravel.</p>
@@ -154,6 +147,7 @@
               <ul class="tags">
                 <li><a href="#" class="tag">PHP</a></li>
                 <li><a href="#" class="tag">Laravel</a></li>
+                <li><a href="#" class="tag">Codeigniter</a></li>
               </ul>
             </div>
           </div>
@@ -169,7 +163,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2>Projects</h2><br><br>
+          <h2 class="section-title">Projects</h2><br><br>
         </div>
       </div>
       <div class="row">
@@ -190,7 +184,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img src="img/coming.jpg" class="img-responsive" alt="">
+            <img src="https://i.postimg.cc/8cNqnX3J/landing-goiot.png" class="img-responsive" alt="">
           </a>
         </div>
         <div class="col-sm-4 portfolio-item">
@@ -214,10 +208,11 @@
         <div class="col-lg-6">
           <div class="aboutme">
             <h3 style="text-align:center;">About Me </h3>
-            <img src="https://thumb.ibb.co/km1zL6/profile.jpg"  alt="profile-picture">
+            <img src="img/profile.jpg"  alt="profile-picture">
             <p>
-              I am a fresh grad from Gunadarma University majoring Informatics Engineering. I am keen to explore my skills, honestly, i am not a fast learner it takes time to understand certain topics. However, during my learning process, i have made several websites
-              for small businesses you can find it on Projects section above and now I'm trying to comprehend about the other web development tools.
+              I live near south Jakarta and currently I work at state-owned bank as a Back-end developer.
+              I also freelance when i can, mostly building custom websites that you can't get from 
+              a template.
             </p>
           </div>
         </div>
@@ -254,7 +249,7 @@
             </p>
           </div>
           <div class="footer-col col-md-4">
-            <h3 >Social Media</h3>
+            <h3>Social Media</h3>
             <ul class="list-inline" >
               <li>
                 <a href="https://github.com/andikaerwansyah" target="_blank" class="btn-social "><i class="fa fa-fw fa-github" alt="my github page"></i></a>
@@ -271,7 +266,7 @@
           <div class="footer-col col-md-4">
             <h3 >Email</h3>
             <p >
-              <i class="fa fa-inbox" aria-hidden="true"></i> contact@andikaerwansyah.id
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> andika.erwansyah@gmail.com
             </p>
             <p >
               <i class="fa fa-whatsapp" aria-hidden="true"></i> (+62) 856-9730-8120
@@ -284,7 +279,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <span><a style="color:white;font-weight:900;" href="http://andikaerwansyah.id/"><i style="color:lightblue;" class="fa fa-code" aria-hidden="true"></i> </a> With <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> from South Tangerang.</span>
+            <span><a style="color:white;font-weight:900;" href="http://andikaerwansyah.id/"><i style="color:lightblue;" class="fa fa-code" aria-hidden="true"></i> </a> With <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> from South Tangerang. 	&copy; 2018</span>
           </div>
         </div>
       </div>
@@ -304,8 +299,7 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
-              <h2>klinikmatakebumen.com</h2>
-
+              <h2 class="section-title">klinikmatakebumen.com</h2>
               <ul class="list-inline item-details">
                 <li>
                   Client: Klinik Mata Kebumen
@@ -320,8 +314,8 @@
               <hr>
               <img src="https://1.bp.blogspot.com/-uWq009GUfTU/WYJvMnNP-WI/AAAAAAAAAqk/wb5Bn0adiSkUTtd2RLpKhQ-5sTRbaE8agCLcBGAs/s1600/Screenshot%2B2017-08-03%2B07.32.31.png" class="img-responsive img-centered" alt="">
 
-              <div style="margin:15px">
-                <a style="display:block" class="btn btn-info" href="http://www.kecbeta.xyz/" target="_blank">Visit Website</a>
+              <div style="margin: 15px 0 15px 0">
+                <a style="display:block" class="btn btn-modal" href="http://www.kecbeta.xyz/" target="_blank">Visit Website</a>
               </div>
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
@@ -342,24 +336,23 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
-              <h2>Maharcons.com</h2>
-              <hr class="star-primary">
-              <img src="img/coming.jpg" class="img-responsive img-centered" alt="">
-              <p></p>
+              <h2 class="section-title">goiot.id</h2>
               <ul class="list-inline item-details">
-                <li>Client: PT Tritunggal Mahardi
+                <li>Client: PT Duhans Indonesia Technolgies
                   <strong><a href="#"></a>
                                     </strong>
                 </li>
-                <li>Date: 2017
+                <li>Date: 2018 - 2020
                   <strong><a href="#"></a>
                                     </strong>
                 </li>
-                <li>Service: Company Profile with CMS
+                <li>Service: Full-time Job 
                   <strong><a href="#"></a>
                                     </strong>
                 </li>
               </ul>
+              <hr class="star-primary">
+              <img src="https://i.postimg.cc/8cNqnX3J/landing-goiot.png" class="img-responsive img-centered" alt="">
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
@@ -379,7 +372,7 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
-              <h2>Electronic Visa</h2>
+              <h2 class="section-title">Electronic Visa</h2>
               <ul class="list-inline item-details">
                 <li>
                   Client: Made Dwizky
@@ -526,7 +519,6 @@
     </div>
   </div>
 
-
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
 
@@ -542,7 +534,12 @@
   <!-- Theme JavaScript -->
   <script src="js/freelancer.min.js"></script>
 
+  <!-- Index App JS -->
+  <script src="/js/index.js"></script>
 
+  <!-- ParticleJS -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/demo/js/app.min.js"></script>
 </body>
 
 </html>
