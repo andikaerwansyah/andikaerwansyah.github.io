@@ -139,6 +139,12 @@ header .intro-text .skills {
     .section-title{
         font-size: 1.9em;
     }
+    .portfolio-modal .modal-content h2 {
+        font-size: 5vw !important;
+    }
+    .portfolio-modal .modal-content .item-details {
+        font-size: 3vw !important;
+    }
   }
 
 .navbar-custom {
@@ -512,15 +518,18 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em
+    font-size: 2vw
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    border-radius: 10px !important;
 }
 
+
 .portfolio-modal .modal-content .item-details {
-    margin: 30px 0
+    margin: 30px 0;
+    font-size: 1vw;
 }
 
 .portfolio-modal .close-modal {
