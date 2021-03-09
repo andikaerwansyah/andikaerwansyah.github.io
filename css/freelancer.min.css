@@ -646,28 +646,25 @@ footer .footer-below {
 }
 
 .aboutme {
-  border: 2px solid grey;
-  outline: 5px solid grey;
-  outline-offset: 5px;
   padding: 1em;
-  /* -webkit-filter: grayscale(90%); Safari */
-  /* filter: grayscale(90%); */
-  margin: 20px; /* added to offset from Codepen edge */
 }
-.aboutme p{
+
+.aboutme .text-wrapper p{
   font-size: 1em;
   text-align: justify;
-  padding-top: 20px
+  padding-top: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .aboutme img {
-  border: 1px solid white ;
   border-radius: 50%;
   box-shadow: 1px 1px 1px gray;
   display: block;
   margin: 0 auto;
   width: 150px;
   height: 150px;
+  margin-top: 30px;
 }
 
 .cf{
